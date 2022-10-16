@@ -24,4 +24,4 @@ const anagramsFinder = (word, words) => {
   return totalAnagrams.join(", ");
 };
 
-console.log(anagramsFinder("task", words));
+console.log(anagramsFinder(process.argv[2], words));
